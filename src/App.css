@@ -25,7 +25,7 @@
   position: absolute;
   top: 0;
   left: 0;
-  filter: blur(5px);
+  filter: blur(15px);
 }
 
 /* navbar */
@@ -41,7 +41,7 @@
   bottom: 0;
 }
 
-.content{
+.content {
   color: white;
   height: 100%;
   width: 100%;
@@ -51,12 +51,13 @@
 }
 
 /* Home page */
-.homeLogo{
+.homeLogo {
   height: 100px;
   width: 100px;
   object-fit: cover;
 }
-.homePage{
+
+.homePage {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -64,13 +65,14 @@
   gap: 20px;
 }
 
-.logoText{
+.logoText {
   font-family: "Allerta Stencil", sans-serif;
   font-size: 60px;
   color: #7A66F2;
+  font-weight: 400;
 }
 
-.infoCard{
+.infoCard {
   background-color: rgba(125, 172, 254, 0.249);
   padding: 40px;
   border-radius: 20px;
@@ -81,10 +83,78 @@
   width: 100%;
 }
 
-.infoCard p{
+.infoCard p {
   color: #cfcfcf;
 }
 
-.infoCard h1{
+.infoCard h1 {
   font-size: 40px;
+}
+
+/* wallOfFame */
+.wallOfFame {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 100%;
+}
+
+.wallOfFame h1 {
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+}
+
+.wallOfFame p {
+  text-align: center;
+}
+
+.walloffameBody {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% - 40px);
+  gap: 10px;
+}
+
+.topbar {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 800;
+}
+
+.playerDetails {
+  display: flex;
+  justify-content: space-between;
+
+}
+
+.allPlayers {
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  height: calc(100vh - 320px);
+}
+
+.playerDetails {
+  padding: 10px;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.171);
+}
+
+.playerName {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.profile {
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  border-radius: 50%;
 }
