@@ -1,4 +1,5 @@
 import React, { useContext } from 'react'
+import Navbar from '../components/Navbar';
 
 const telegramObject = window.Telegram.WebApp;
 
@@ -10,11 +11,10 @@ function Home() {
         console.log("access the site")
     }
     return (
-        <div>
-            <pre>
-                {JSON.stringify(telegramObject)}
-            </pre>
-            {telegramObject.initData==""?<p>you cannot access the site</p>:"Access the site"}
+        <div className='parent'>
+            <div className="appBody">
+            <Navbar/>
+            </div>
         </div>
     )
 }
