@@ -15,24 +15,29 @@ function App() {
   const router = createBrowserRouter([
     {
       path: "/",
-      element: <Home/>,
+      element: <Home />,
     },
     {
       path: "/leaderboard",
-      element: <Leaderboard/>,
+      element: <Leaderboard />,
     },
     {
-      path:"/tasks",
-      element: <Tasks/>
+      path: "/tasks",
+      element: <Tasks />
     },
     {
-      path:"/walloffame",
-      element: <WallOfFame/>
+      path: "/walloffame",
+      element: <WallOfFame />
     }
   ]);
 
   return (
-      <RouterProvider router={router} />
+    <div className='parent'>
+      <div className="appBody">
+        <img className='backgroundImage' src="https://i.pinimg.com/736x/4c/70/02/4c7002e8e036bc921e6f40ed3e90a19e.jpg" alt="" />
+        <RouterProvider router={router} />
+      </div>
+    </div>
   )
 }
 

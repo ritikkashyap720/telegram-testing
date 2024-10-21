@@ -8,11 +8,19 @@
 }
 
 .appBody {
-  width: 500px;
-  max-width: 500px;
+  width: 450px;
+  max-width: 450;
   height: 100svh;
-  background-color: rgb(17, 17, 240);
   position: relative;
+}
+.backgroundImage{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(10px);
 }
 
 /* navbar */

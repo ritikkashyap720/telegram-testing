@@ -3,11 +3,10 @@ import Navbar from '../components/Navbar'
 
 function Tasks() {
   return (
-    <div className='parent'>
-            <div className="appBody">
-            <Navbar/>
-            </div>
-        </div>
+    <>
+    Tasks
+    <Navbar/>
+    </>
   )
 }
 
