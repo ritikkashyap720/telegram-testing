@@ -209,3 +209,49 @@
   background-color: transparent;
   color: white;
 }
+
+/* loading */
+.loading{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.loading img{
+  height: 100px;
+  width: 100px;
+}
+.bottombar{
+  position: absolute;
+  bottom: 50px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+.bottombar h1{
+  font-family: "Allerta Stencil", sans-serif;
+  font-weight: 400;
+  font-size: 40px;
+  color: #7A66F2;
+}
+
+.loadingBar{
+  height: 10px;
+  width: calc(100% - 100px);
+  background-color: aliceblue;
+  border-radius: 10px;
+}
+
+.loadingProgress{
+  height: 10px;
+  width: 0%;
+  background-color: #7A66F2;
+  border-radius: 10px;
+  transition: 0.3s ease;
+}
