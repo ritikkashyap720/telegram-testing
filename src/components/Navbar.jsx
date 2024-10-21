@@ -12,9 +12,9 @@ function Navbar() {
     return (
         <div className='navbar'>
             <Link style={{ color: location.pathname == "/" ? "white" : "#9D9F9F" }} to="/" className="navbaricons"><SportsEsportsIcon fontSize="large" /></Link>
-            <Link style={{ color: location.pathname == "/leaderboard" ? "white" : "#9D9F9F" }} to="/leaderboard" className="navbaricons"><LeaderboardIcon fontSize="large" /></Link>
+            <Link style={{ color: location.pathname == "/walloffame" ? "white" : "#9D9F9F" }} to="/walloffame" className="navbaricons"><LeaderboardIcon fontSize="large" /></Link>
             <Link style={{ color: location.pathname == "/tasks" ? "white" : "#9D9F9F" }} to="/tasks" className="navbaricons"><EmojiEventsIcon fontSize="large" /></Link>
-            <Link style={{ color: location.pathname == "/walloffame" ? "white" : "#9D9F9F" }} to="/walloffame" className="navbaricons"><Diversity1Icon fontSize="large" /></Link>
+            <Link style={{ color: location.pathname == "/groups" ? "white" : "#9D9F9F" }} to="/groups" className="navbaricons"><Diversity1Icon fontSize="large" /></Link>
         </div>
     )
 }

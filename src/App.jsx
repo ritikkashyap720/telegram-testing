@@ -18,7 +18,7 @@ function App() {
       element: <Home />,
     },
     {
-      path: "/leaderboard",
+      path: "/groups",
       element: <Leaderboard />,
     },
     {

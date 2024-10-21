@@ -25,87 +25,77 @@ function WallOfFame() {
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
+                       
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
                             <div className="earnedCoins">12,45,250</div>
                         </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                        <div className="playerDetails">
-                            <div className="playerName"><div className="profile"></div> Ritik</div>
-                            <div className="earnedCoins">12,45,250</div>
-                        </div>
-                      
+                       
                     </div>
                 </div>
             </div>

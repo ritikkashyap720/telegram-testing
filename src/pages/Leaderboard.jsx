@@ -5,7 +5,7 @@ function Leaderboard() {
     return (
         <div className="content">
             <div >
-Leaderboard
+                Leaderboard
             </div>
             <Navbar />
         </div>
