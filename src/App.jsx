@@ -34,7 +34,7 @@ function App() {
   return (
     <div className='parent'>
       <div className="appBody">
-        <img className='backgroundImage' src="https://i.pinimg.com/736x/7f/be/8a/7fbe8ac6505a6165e17f827205cf857a.jpg" alt="" />
+        <img className='backgroundImage' src="https://i.pinimg.com/736x/8b/32/c6/8b32c66bdd3c347b43d7985272c6f0de.jpg" alt="" />
         <RouterProvider router={router} />
       </div>
     </div>
