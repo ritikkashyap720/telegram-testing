@@ -2,12 +2,14 @@ import React from 'react'
 import Navbar from '../components/Navbar'
 
 function WallOfFame() {
-  return (
-   <>
-   Wall of fame
-   <Navbar/>
-   </>
-  )
+    return (
+        <div className="content">
+            <div >
+                Wall of fame
+            </div>
+            <Navbar />
+        </div>
+    )
 }
 
 export default WallOfFame

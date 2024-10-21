@@ -11,10 +11,12 @@ function Home() {
         console.log("access the site")
     }
     return (
-       <>
-        Home
-        <Navbar/>
-       </>
+        <div className="content">
+            <div >
+                Home
+            </div>
+            <Navbar />
+        </div>
     )
 }
 
