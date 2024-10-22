@@ -135,8 +135,9 @@
   display: flex;
   flex-direction: column;
   gap: 10px;
-  height: calc(100vh - 320px);
+  height: calc(100vh - 400px);
 }
+
 
 .playerDetails {
   padding: 10px;
@@ -144,6 +145,10 @@
   display: flex;
   align-items: center;
   background-color: rgba(255, 255, 255, 0.171);
+}
+
+.mydetails{
+  background-color: #7b66f26a;
 }
 
 .playerName {

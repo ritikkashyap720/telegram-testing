@@ -16,6 +16,10 @@ function WallOfFame() {
                         <span>12,365 Players</span>
                         <span>Earned Coins</span>
                     </div>
+                    <div className="playerDetails mydetails">
+                            <div className="playerName"><div className="profile"></div> Ritik</div>
+                            <div className="earnedCoins">12,45,250</div>
+                        </div>
                     <div className="allPlayers">
                         <div className="playerDetails">
                             <div className="playerName"><div className="profile"></div> Ritik</div>
