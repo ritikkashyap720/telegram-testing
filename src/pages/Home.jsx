@@ -10,6 +10,7 @@ function Home() {
     } else {
         console.log("access the site")
         console.log("user details: ",telegramObject.initDataUnsafe);
+        console.log("All data: ",telegramObject);
     }
     return (
         <div className="content">
