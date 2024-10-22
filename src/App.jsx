@@ -12,6 +12,8 @@ import WallOfFame from './pages/WallOfFame';
 import { useState } from 'react';
 import Logo from "./assets/Logo.png"
 
+const telegramObject = window.Telegram.WebApp;
+
 function App() {
   const [loading, setLoading] = useState(true);
   var [progress,setProgress]= useState(20)
@@ -19,9 +21,13 @@ function App() {
   setTimeout(()=>{
     setProgress(100)
   },2000)
+
   setTimeout(()=>{
     setLoading(false)
   },3000)
+  
+  
+
   const router = createBrowserRouter([
     {
       path: "/",
@@ -41,6 +47,8 @@ function App() {
     }
   ]);
 
+  console.log(telegramObject);
+
   return (
     <div className='parent'>
       <div className="appBody">
@@ -57,6 +65,7 @@ function App() {
             </div>
           </div>
           : <RouterProvider router={router} />}
+          
       </div>
     </div>
   )
