@@ -47,7 +47,6 @@ function App() {
     }
   ]);
 
-  console.log(telegramObject);
 
   return (
     <div className='parent'>

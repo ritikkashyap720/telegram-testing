@@ -7,10 +7,9 @@ const telegramObject = window.Telegram.WebApp;
 function Home() {
     if (telegramObject.initData == "") {
         console.log("you cannot access the site")
-        console.log(telegramObject.initData);
     } else {
-
         console.log("access the site")
+        console.log("user details: ",telegramObject.initDataUnsafe);
     }
     return (
         <div className="content">
